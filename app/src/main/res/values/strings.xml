@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string name="feedButton">Feed</string>
+    <string name="cleanButton">Clean</string>
+    <string name="playButton">Play</string>
+    <string name="startButton">Lets Start</string>
+    <string name="textView">Welcome Momo Your Tamagotchi Pet App</string>
+
+</resources>
