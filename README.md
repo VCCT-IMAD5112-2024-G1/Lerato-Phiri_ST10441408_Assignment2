@@ -12,7 +12,7 @@ Instructions:
  8. Click on it and it will move you to the second screen where you will start the fun. 
 9. Once you are moved to the second screen, you now in control on looking after Momo.
 10. You can click on the buttons to feed, clean and play with Momo. But make sure the levels don’t go so low else she will start to feel unwell. 
-11. When you are satisfied with the experience you can exit the app, but maek sure you check on Momo every 2 hours.
+11. When you are satisfied with the experience you can exit the app, but make sure you check on Momo every 2 hours.
 12. Enjoy!
 
 YouTube Link:
