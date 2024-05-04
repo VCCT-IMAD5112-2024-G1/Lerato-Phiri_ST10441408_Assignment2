@@ -1,8 +1,8 @@
 Instructions:
- 1.Download Android Studio, Kotlin IDE 
+1.Download Android Studio, Kotlin IDE 
 2. Once download go on GitHub and download the app Lerato-Phiri_ST10441408_Assignment2 
 3. Wait for it to download 
-4. Once downloaded, load app to Android Studio by going to files and open it 
+4. Once downloaded, load to Android Studio by going to files and open it 
 5. Then start up your emulator phone, it will take a minute 
 6. Once the emulator starts up then click on the App name, Lerato-Phiri_ST10441408_Assignment2
 7. Once loaded you will be  greeted by a panda named Momo and see a prompt, “Let’s Start”.
@@ -14,3 +14,8 @@ Instructions:
 
 YouTube Link:
 https://youtu.be/L4_kudAcuVU
+
+Image User InterFace:
+https://1drv.ms/i/c/abaec5836e50df20/EWO8rs5bLvxJpQBqXrPvFGABY16msXM2Z9ws--jiYm4n9g?e=3NzXao 
+
+
