@@ -15,7 +15,7 @@ Instructions:
 YouTube Link:
 https://youtu.be/L4_kudAcuVU
 
-Image User InterFace:
-https://1drv.ms/i/c/abaec5836e50df20/EWO8rs5bLvxJpQBqXrPvFGABY16msXM2Z9ws--jiYm4n9g?e=3NzXao 
+![MOMO](https://github.com/vickylicious05/Lerato-Phiri_ST10441408_Assignment2/assets/164025839/5a00dca9-9b22-4831-a4c3-be9a565037b5)
+ 
 
 
