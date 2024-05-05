@@ -1,26 +1,25 @@
 package com.example.assignment2
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class ImageDisplayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_image_display)
 
-     val startButton: Button = findViewById<Button>(R.id.startButton)
+        // declaring the default value
+        val imageResId = intent.getIntExtra("imageResId", 0)
+        val imageView = findViewById<ImageView>(R.id.feedImage)
+        imageView.setImageResource(imageResId)
 
-        // code to change from first to second page
-      startButton.setOnClickListener {
-           val intent = Intent(this@MainActivity, Game::class.java)
-            startActivity(intent)
-       }
+
+
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

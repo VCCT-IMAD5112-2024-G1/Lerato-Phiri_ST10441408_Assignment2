@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/turquoise_bubbles"
+    android:background="@drawable/whimsical"
     tools:context=".Game">
 
     <ProgressBar
-        android:id="@+id/progressBar2"
+        android:id="@+id/cleanBar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="128dp"
+        android:layout_width="132dp"
         android:layout_height="34dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toTopOf="@+id/playButton"
@@ -20,16 +20,16 @@
         app:layout_constraintStart_toEndOf="@+id/cleanButton" />
 
     <ProgressBar
-        android:id="@+id/progressBar3"
+        android:id="@+id/playBar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="128dp"
-        android:layout_height="34dp"
+        android:layout_width="134dp"
+        android:layout_height="36dp"
         android:layout_marginTop="68dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toEndOf="@+id/playButton"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar2"
+        app:layout_constraintTop_toBottomOf="@+id/cleanBar"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -38,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/lightblue"
         android:onClick="switchPanda"
         android:text="@string/feedButton"
         app:layout_constraintBottom_toTopOf="@+id/cleanButton"
@@ -49,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="52dp"
+        android:backgroundTint="@color/lightblue"
         android:text="@string/playButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -59,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/lightblue"
         android:text="@string/cleanButton"
         app:layout_constraintBottom_toTopOf="@+id/playButton"
         app:layout_constraintStart_toStartOf="parent" />
@@ -74,17 +77,55 @@
         app:layout_constraintVertical_bias="0.202"
         app:srcCompat="@drawable/panda_3" />
 
+    <ImageView
+        android:id="@+id/feedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:src="@drawable/feed"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <ImageView
+        android:id="@+id/cleanImage"
+        android:layout_width="231dp"
+        android:layout_height="215dp"
+        android:src="@drawable/clean"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/feedButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <ImageView
+        android:id="@+id/happyImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/feedButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ProgressBar
-        android:id="@+id/progressBar1"
+        android:id="@+id/feedBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="128dp"
         android:layout_height="34dp"
         android:layout_marginBottom="52dp"
+        android:max="100"
+        android:progress="0"
         app:layout_constraintBottom_toTopOf="@+id/cleanButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toEndOf="@+id/feedButton"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="1.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

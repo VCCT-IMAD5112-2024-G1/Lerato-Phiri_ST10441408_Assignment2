@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/turquoise_bubbles"
+    android:background="@drawable/whimsical"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,13 +14,14 @@
         android:layout_height="65dp"
         android:text="@string/textView"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textColor="#04143A"
+        android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
+        app:layout_constraintVertical_bias="0.353" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -37,8 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
-        android:text="@string/startButton"
         android:backgroundTint="@color/lightblue"
+        android:text="@string/startButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
